@@ -14,4 +14,4 @@ export function removeFromCart(product){
         type : REMOVE_FROM_CART,
         payload: product
     }
-} 
+}
