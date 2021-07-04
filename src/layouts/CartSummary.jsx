@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import {  Dropdown } from 'semantic-ui-react'
 import { useSelector } from 'react-redux'
 export default function CartSummary() {
-    const {cartItems} = useSelector(state => state.cartItems)
+    const {cartItems} = useSelector(state => state.cart)
     return (
         <div>
             <Dropdown item text='Sepet'>
